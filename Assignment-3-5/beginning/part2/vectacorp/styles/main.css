@@ -1,0 +1,129 @@
+/* CS648 Assignment 3 - Part 2 Complete CSS */
+
+body {
+    width: 960px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    color: #CC1C0D;
+}
+
+h2 {
+    color: #CC1C0D;
+    background-color: #DFE3E6;
+    border: #929CA4 solid 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+p img {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* Solutions Page  */
+.solutions-links li a {
+    margin-left: 40px;
+}
+
+#vprospect,
+#vconvert,
+#vretain {
+    font-weight: bold;
+}
+
+.solutions-description>li {
+    list-style: disc;
+    margin-left: 40px;
+}
+
+
+
+/* pricing page  */
+.pricing div {
+    border: 2px solid #929CA4;
+    border-radius: 10px;
+    float: left;
+    display: inline;
+    height: 320px;
+    width: 20%;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.pricing hr {
+  display: block;
+  width: 100%;
+  height: 12px;
+  margin: 5px 0;
+  border: 0;
+}
+
+
+.pricing div:nth-child(1) hr { background-color: #CC1C0D; }
+.pricing div:nth-child(2) hr { background-color: #37A4A4; }
+.pricing div:nth-child(3) hr { background-color: #685288; }
+.pricing div:nth-child(4) hr { background-color: #000000; }
+
+.pricing img {
+    margin: 10% auto;
+}
+
+.pricing p {
+    color:#000000;
+    margin: 16px auto;
+}
+
+.pricing div:nth-child(4) > p:first-child{
+  margin: 28px auto 28px;
+  font-size: 1em;
+}
+
+/* About Us page */
+section {
+  overflow: hidden;              
+  padding: 10px 0;
+  
+  margin-bottom: 20px;
+}
+
+section:not(.pricing) img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 4px;
+  border-radius: 40%;          
+  border: 2px solid #cc0000;  
+}
+
+
+
+section h3 {
+  margin: 0 0 4px 0;
+}
+
+section:not(.pricing) p {
+  margin: 0 0 8px 0;
+  line-height: 1.8em;    
+}
